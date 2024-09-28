@@ -1,0 +1,62 @@
+body {
+    /* font-family: "Merriweather", serif; */
+    font-family: "Roboto Slab", serif;
+}
+
+.navbar {
+    background-color:  RGB(0, 0, 128);
+    color:  RGB(255, 239, 204);
+}
+
+#cabecalho .nav .nav-link.active {
+    background-color:  RGB(255, 239, 204);
+    color: RGB(0, 0, 128);
+}
+
+#cabecalho .nav .nav-link,
+.navbar-brand,
+.navbar-brand:hover,
+.nav-cardapio .nav-link.active:hover {
+    color: RGB(255, 239, 204);
+}
+
+.navbar-toggler {
+    background-color: RGB(255, 239, 204);
+}
+
+.section-title {
+    font-family: "Merriweather", serif;
+}
+
+#sobre-a-livraria, #cardapio {
+    background-color: RGB(255, 239, 204);
+}
+
+.text-colored {
+    color: RGB(0, 0, 128);
+}
+
+.nav-produtos .nav-link.active,
+#contato button {
+    background-color: RGB(0, 0, 128);
+    color: RGB(255, 239, 204);
+}
+
+.nav-produtos .nav-link:hover {
+    color: RGB(0, 0, 128);
+}
+
+.social-links li {
+    list-style: none;
+    display: inline;
+}
+
+.social-links a {
+    text-decoration: none;
+}
+
+@media (max-width: 767px) {
+    .carousel-item img {
+        height: 280px;
+    }
+}
